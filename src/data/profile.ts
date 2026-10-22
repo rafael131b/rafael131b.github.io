@@ -14,7 +14,7 @@ export const profile = {
 
 export const about = [
   "Comecei em 2021 numa agência, fazendo sites e aplicações com React e Next.js para clientes. De lá fui para o mundo dos portais corporativos, onde a interface precisa ser consistente e fácil de manter por qualquer pessoa do time.",
-  "Na GX2, onde fiquei até abril de 2026, trabalhei do front ao back: componentes React dentro do Liferay, APIs com Spring Boot e Node.js e o dia a dia do time no Azure DevOps. No caminho, a IA generativa virou parte do meu fluxo de trabalho, com assistentes de código, automações e fluxos com vários agentes.",
+  "Na GX2, onde fiquei de 2024 a abril de 2026, trabalhei do front ao back: componentes React dentro do Liferay, APIs com Spring Boot e Node.js e o dia a dia do time no Azure DevOps. No caminho, a IA virou parte do meu processo: uso Claude e Codex para ganhar velocidade tanto no front quanto no back.",
 ];
 
 export const facts = [
@@ -57,13 +57,13 @@ export const focus: Record<
 export const toolkit = [
   {
     title: "Back-end",
-    text: "Já desenvolvi várias APIs REST com Spring Boot, incluindo autenticação com JWT. No Node.js trabalho com Express, NestJS e Fastify.",
-    items: ["Java", "Spring Boot", "JWT", "Autenticação", "Node.js", "NestJS", "Express", "Fastify", "Sequelize"],
+    text: "Com Spring Boot já desenvolvi várias APIs REST, cuidando de autenticação com JWT e Spring Security, controle de permissões e integração com banco de dados. No Node.js trabalho com Express, NestJS e Fastify.",
+    items: ["Java", "Spring Boot", "Spring Security", "JWT", "Controle de permissões", "Banco de dados", "Node.js", "NestJS", "Express", "Fastify", "Sequelize"],
   },
   {
     title: "IA aplicada",
-    text: "Uso IA no dia a dia para escrever e revisar código, automatizar tarefas repetitivas e montar fluxos com vários agentes.",
-    items: ["Assistentes de código", "Automação de tarefas", "Fluxos com múltiplos agentes"],
+    text: "Uso Claude e Codex para agilizar o desenvolvimento em todas essas linguagens, do React ao Spring. Também automatizo tarefas repetitivas e monto fluxos com vários agentes.",
+    items: ["Claude", "Codex", "Automação de tarefas", "Fluxos com múltiplos agentes"],
   },
   {
     title: "Entrega",
@@ -76,15 +76,16 @@ export const experience = [
   {
     company: "GX2",
     role: "Desenvolvedor Full Stack",
-    period: "mar 2023 – abr 2026",
-    start: "2023",
+    period: "2024 – abr 2026",
+    start: "2024",
     points: [
       "Desenvolvi e evoluí portais corporativos com React, Next.js e TypeScript integrados ao Liferay, usando Material UI e Tailwind CSS.",
-      "Criei várias APIs REST com Java e Spring Boot, incluindo autenticação com JWT, além de serviços em Node.js com Express, NestJS e Fastify.",
+      "Criei várias APIs REST com Java e Spring Boot, com autenticação via JWT e Spring Security, controle de permissões e integração com banco de dados.",
+      "Também desenvolvi serviços em Node.js com Express, NestJS e Fastify.",
       "Usei Zustand para o estado global das aplicações e Zod para validar formulários e dados vindos da API.",
       "Trabalhei com times multidisciplinares, organizando as entregas no Azure DevOps.",
     ],
-    tags: ["React", "Next.js", "Zustand", "Liferay", "Spring Boot", "JWT", "Node.js"],
+    tags: ["React", "Next.js", "Zustand", "Liferay", "Spring Boot", "Spring Security", "JWT", "Node.js"],
   },
   {
     company: "Almaviva",
