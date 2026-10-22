@@ -13,7 +13,7 @@ export function Focus() {
     <section className="section focus" id="foco" aria-labelledby="foco-titulo">
       <SectionTitle
         id="foco-titulo"
-        intro="Os dois frameworks que uso para construir interfaces em produção. Escolha um para ver o que faço com ele."
+        intro="Uso os dois em produção, mas de jeitos diferentes. Escolha um para ver o que já fiz com ele."
       >
         React e Angular
       </SectionTitle>

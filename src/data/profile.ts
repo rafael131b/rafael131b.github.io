@@ -9,12 +9,12 @@ export const profile = {
   phoneHref: "tel:+5511975968110",
   whatsapp: "https://wa.me/5511975968110",
   summary:
-    "Há mais de 5 anos crio e evoluo aplicações web e portais corporativos. Meu foco é o front-end com React e Angular, com back-end em Node.js e Spring Boot quando o projeto pede.",
+    "Há mais de 5 anos construo aplicações web e portais corporativos. Meu forte é o front-end com React e Angular, e no back-end já desenvolvi várias APIs com Spring Boot e Node.js.",
 };
 
 export const about = [
-  "Comecei em 2021 com React e Next.js, construindo interfaces para clientes de uma agência. Desde então trabalho em portais corporativos, onde o que importa é uma interface consistente, que aguente crescer e que outro desenvolvedor consiga manter.",
-  "Hoje atuo na GX2 do front ao back: componentes React integrados ao Liferay, APIs REST em Node.js e Spring Boot, e o acompanhamento das entregas no Azure DevOps. Também uso IA generativa no dia a dia, com assistentes de código, automações e fluxos com múltiplos agentes.",
+  "Comecei em 2021 numa agência, fazendo sites e aplicações com React e Next.js para clientes. De lá fui para o mundo dos portais corporativos, onde a interface precisa ser consistente e fácil de manter por qualquer pessoa do time.",
+  "Na GX2, onde fiquei até abril de 2026, trabalhei do front ao back: componentes React dentro do Liferay, APIs com Spring Boot e Node.js e o dia a dia do time no Azure DevOps. No caminho, a IA generativa virou parte do meu fluxo de trabalho, com assistentes de código, automações e fluxos com vários agentes.",
 ];
 
 export const facts = [
@@ -31,43 +31,43 @@ export const focus: Record<
   react: {
     title: "React",
     since: "Desde 2021",
-    lead: "Onde passo a maior parte do tempo. Construo de módulos isolados a portais inteiros.",
+    lead: "Foi com React que comecei, e é onde passei a maior parte da carreira. Já fiz de landing pages a portais inteiros.",
     points: [
-      "Aplicações e portais corporativos com React, Next.js e TypeScript",
-      "Módulos React integrados a portais Liferay e a serviços de back-end",
-      "Bibliotecas de componentes reutilizáveis com Material UI e Tailwind CSS",
-      "Manutenção evolutiva e ganhos de performance com Clean Code",
+      "Portais e aplicações com Next.js, muitas vezes rodando dentro do Liferay",
+      "Estado global com Zustand, sem a burocracia de uma store gigante",
+      "Validação de formulários e de respostas da API com Zod",
+      "Bibliotecas de componentes com Material UI e Tailwind CSS",
     ],
-    tools: ["React", "Next.js", "TypeScript", "Material UI", "Tailwind CSS", "Liferay"],
+    tools: ["React", "Next.js", "TypeScript", "Zustand", "Zod", "Material UI", "Tailwind CSS", "Liferay"],
   },
   angular: {
     title: "Angular",
     since: "Desde 2022",
-    lead: "Componentes tipados, organizados para durar em produtos corporativos.",
+    lead: "No Angular eu construía as telas: interfaces completas, do layout ao estado que mantém tudo funcionando junto.",
     points: [
-      "Componentes reutilizáveis com Angular e TypeScript",
-      "Interfaces responsivas com foco em performance e manutenção",
-      "Entregas do setup à publicação em produção, em squads ágeis",
-      "Versionamento com Git e revisão de código no fluxo do time",
+      "Interfaces responsivas montadas com componentes reutilizáveis",
+      "Gerenciamento de estado para manter dados e telas sincronizados",
+      "Telas conectadas aos serviços de back-end, com tudo tipado em TypeScript",
+      "Trabalho em squad, com revisão de código e entregas até produção",
     ],
-    tools: ["Angular", "TypeScript", "HTML5", "Sass", "Git"],
+    tools: ["Angular", "TypeScript", "Gerenciamento de estado", "HTML5", "Sass"],
   },
 };
 
 export const toolkit = [
   {
     title: "Back-end",
-    text: "APIs REST e integrações que alimentam as interfaces que construo.",
-    items: ["Node.js", "Express", "NestJS", "Fastify", "Sequelize", "Java", "Spring Boot"],
+    text: "Já desenvolvi várias APIs REST com Spring Boot, incluindo autenticação com JWT. No Node.js trabalho com Express, NestJS e Fastify.",
+    items: ["Java", "Spring Boot", "JWT", "Autenticação", "Node.js", "NestJS", "Express", "Fastify", "Sequelize"],
   },
   {
     title: "IA aplicada",
-    text: "IA generativa como parte do processo de desenvolvimento, não só como curiosidade.",
+    text: "Uso IA no dia a dia para escrever e revisar código, automatizar tarefas repetitivas e montar fluxos com vários agentes.",
     items: ["Assistentes de código", "Automação de tarefas", "Fluxos com múltiplos agentes"],
   },
   {
     title: "Entrega",
-    text: "O que mantém o código saudável depois que ele vai para produção.",
+    text: "O que mantém o projeto saudável depois do deploy: versionamento, testes e um processo claro com o time.",
     items: ["Git", "Azure DevOps", "Testes", "Clean Code", "Scrum", "Kanban"],
   },
 ];
@@ -76,15 +76,15 @@ export const experience = [
   {
     company: "GX2",
     role: "Desenvolvedor Full Stack",
-    period: "mar 2023 – atual",
+    period: "mar 2023 – abr 2026",
     start: "2023",
     points: [
-      "Desenvolvo e evoluo aplicações e portais corporativos com React, Next.js, TypeScript, Material UI, Tailwind CSS e Liferay.",
-      "Construo e integro APIs REST com Node.js, Express, NestJS, Fastify e Java com Spring Boot, com persistência via Sequelize.",
-      "Crio componentes reutilizáveis com atenção à consistência visual, escalabilidade e manutenção.",
-      "Analiso problemas e melhoro performance em times multidisciplinares, organizando as demandas com Git e Azure DevOps.",
+      "Desenvolvi e evoluí portais corporativos com React, Next.js e TypeScript integrados ao Liferay, usando Material UI e Tailwind CSS.",
+      "Criei várias APIs REST com Java e Spring Boot, incluindo autenticação com JWT, além de serviços em Node.js com Express, NestJS e Fastify.",
+      "Usei Zustand para o estado global das aplicações e Zod para validar formulários e dados vindos da API.",
+      "Trabalhei com times multidisciplinares, organizando as entregas no Azure DevOps.",
     ],
-    tags: ["React", "Next.js", "Liferay", "Node.js", "NestJS", "Spring Boot"],
+    tags: ["React", "Next.js", "Zustand", "Liferay", "Spring Boot", "JWT", "Node.js"],
   },
   {
     company: "Almaviva",
@@ -92,9 +92,9 @@ export const experience = [
     period: "mar 2022 – mar 2023",
     start: "2022",
     points: [
-      "Desenvolvi módulos em React integrados a portais corporativos, da configuração do ambiente à integração com o back-end.",
-      "Criei componentes reutilizáveis com TypeScript e Angular, focando em responsividade, performance e manutenção.",
-      "Participei de squads ágeis do setup à publicação em produção, com versionamento em Git e revisão de código.",
+      "Desenvolvi módulos em React para portais corporativos, da configuração do ambiente até a integração com o back-end.",
+      "Construí interfaces em Angular com TypeScript, cuidando do gerenciamento de estado e da responsividade das telas.",
+      "Fiz parte de squads ágeis, com revisão de código e entregas até produção.",
     ],
     tags: ["React", "Angular", "TypeScript", "Git"],
   },
@@ -104,8 +104,8 @@ export const experience = [
     period: "abr 2021 – dez 2021",
     start: "2021",
     points: [
-      "Desenvolvi e mantive aplicações web com React, Next.js, JavaScript, HTML5, CSS3 e Sass.",
-      "Implementei funcionalidades e melhorias de usabilidade e responsividade junto ao time técnico e aos requisitos do cliente.",
+      "Desenvolvi e mantive sites e aplicações web com React, Next.js, JavaScript e Sass.",
+      "Implementei funcionalidades e melhorias de usabilidade conversando direto com o time técnico e com os pedidos do cliente.",
     ],
     tags: ["React", "Next.js", "JavaScript", "Sass"],
   },
