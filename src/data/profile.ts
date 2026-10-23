@@ -34,11 +34,12 @@ export const focus: Record<
     lead: "Foi com React que comecei, e é onde passei a maior parte da carreira. Já fiz de landing pages a portais inteiros.",
     points: [
       "Portais e aplicações com Next.js, muitas vezes rodando dentro do Liferay",
+      "Dados do servidor com TanStack Query: cache, revalidação e estados de carregamento sem código repetido",
       "Estado global com Zustand, sem a burocracia de uma store gigante",
-      "Validação de formulários e de respostas da API com Zod",
+      "Formulários com React Hook Form, validados com Zod",
       "Bibliotecas de componentes com Material UI e Tailwind CSS",
     ],
-    tools: ["React", "Next.js", "TypeScript", "Zustand", "Zod", "Material UI", "Tailwind CSS", "Liferay"],
+    tools: ["React", "Next.js", "TypeScript", "TanStack Query", "React Hook Form", "Zustand", "Zod", "Material UI", "Tailwind CSS", "Liferay"],
   },
   angular: {
     title: "Angular",
@@ -82,10 +83,10 @@ export const experience = [
       "Desenvolvi e evoluí portais corporativos com React, Next.js e TypeScript integrados ao Liferay, usando Material UI e Tailwind CSS.",
       "Criei várias APIs REST com Java e Spring Boot, com autenticação via JWT e Spring Security, controle de permissões e integração com banco de dados.",
       "Também desenvolvi serviços em Node.js com Express, NestJS e Fastify.",
-      "Usei Zustand para o estado global das aplicações e Zod para validar formulários e dados vindos da API.",
+      "Organizei o estado das aplicações com TanStack Query para dados do servidor e Zustand para o estado global, com formulários em React Hook Form validados por Zod.",
       "Trabalhei com times multidisciplinares, organizando as entregas no Azure DevOps.",
     ],
-    tags: ["React", "Next.js", "Zustand", "Liferay", "Spring Boot", "Spring Security", "JWT", "Node.js"],
+    tags: ["React", "Next.js", "TanStack Query", "Zustand", "Liferay", "Spring Boot", "Spring Security", "JWT", "Node.js"],
   },
   {
     company: "Almaviva",
