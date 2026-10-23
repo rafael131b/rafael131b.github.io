@@ -71,8 +71,8 @@ export const focus: Record<
 export const toolkit = [
   {
     title: "Back-end",
-    text: "Com Spring Boot já desenvolvi várias APIs REST, cuidando de autenticação com JWT e Spring Security, controle de permissões e integração com banco de dados. No Node.js trabalho com Express, NestJS e Fastify.",
-    items: ["Java", "Spring Boot", "Spring Security", "JWT", "Controle de permissões", "Banco de dados", "Node.js", "NestJS", "Express", "Fastify", "Sequelize"],
+    text: "Com Spring Boot já desenvolvi várias APIs REST: autenticação com JWT e Spring Security, perfis de acesso, expiração e renovação de token, PostgreSQL com migrations e documentação em Swagger/OpenAPI. No Node.js trabalho com Express, NestJS e Fastify.",
+    items: ["Java", "Spring Boot", "Spring Security", "JWT", "Perfis de acesso", "PostgreSQL", "Migrations", "Swagger/OpenAPI", "Node.js", "NestJS", "Express", "Fastify", "Sequelize"],
   },
   {
     title: "IA aplicada",
@@ -82,7 +82,7 @@ export const toolkit = [
   {
     title: "Entrega",
     text: "O que mantém o projeto saudável depois do deploy: versionamento, testes e um processo claro com o time.",
-    items: ["Git", "Azure DevOps", "Testes", "Clean Code", "Scrum", "Kanban"],
+    items: ["Git", "Azure DevOps", "Deploy e pipelines", "Testes", "Clean Code", "Scrum", "Kanban"],
   },
 ];
 
@@ -94,12 +94,12 @@ export const experience = [
     start: "2024",
     points: [
       "Desenvolvi e evoluí portais corporativos com React, Next.js e TypeScript integrados ao Liferay, usando Material UI e Tailwind CSS.",
-      "Criei várias APIs REST com Java e Spring Boot, com autenticação via JWT e Spring Security, controle de permissões e integração com banco de dados.",
+      "Criei várias APIs REST com Java e Spring Boot: autenticação com JWT e Spring Security, perfis de acesso, expiração e renovação de token, PostgreSQL com migrations e documentação em Swagger/OpenAPI.",
       "Também desenvolvi serviços em Node.js com Express, NestJS e Fastify.",
       "Organizei o estado das aplicações com TanStack Query para dados do servidor e Zustand para o estado global, com formulários em React Hook Form validados por Zod.",
-      "Trabalhei com times multidisciplinares, organizando as entregas no Azure DevOps.",
+      "Trabalhei com times multidisciplinares no Azure DevOps e participei do deploy e dos pipelines de entrega.",
     ],
-    tags: ["React", "Next.js", "TanStack Query", "Zustand", "Liferay", "Spring Boot", "Spring Security", "JWT", "Node.js"],
+    tags: ["React", "Next.js", "TanStack Query", "Zustand", "Liferay", "Spring Boot", "Spring Security", "PostgreSQL", "Node.js"],
   },
   {
     company: "Almaviva",
