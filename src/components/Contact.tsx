@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { profile } from "../data/profile";
+import { profile, resumes } from "../data/profile";
 import { DownloadMark, WhatsAppMark } from "./Marks";
 
 export function Contact() {
@@ -62,12 +62,14 @@ export function Contact() {
       </a>
 
       <ul className="contact__links">
-        <li>
-          <a className="contact__resume" href={profile.resume} download>
-            <DownloadMark size={16} />
-            Baixar currículo (PDF)
-          </a>
-        </li>
+        {resumes.map((r) => (
+          <li key={r.href}>
+            <a className="contact__resume" href={r.href} download>
+              <DownloadMark size={16} />
+              Currículo {r.label.toLowerCase()} (PDF)
+            </a>
+          </li>
+        ))}
         <li>{profile.location}</li>
       </ul>
 

@@ -4,7 +4,8 @@ import { profile } from "../data/profile";
 import { useFramework } from "../framework";
 import { CodeWindow } from "./CodeWindow";
 import { Orbits } from "./Orbits";
-import { DownloadMark, WhatsAppMark } from "./Marks";
+import { WhatsAppMark } from "./Marks";
+import { ResumeMenu } from "./ResumeMenu";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -89,10 +90,7 @@ export function Hero() {
               <WhatsAppMark size={18} />
               Chamar no WhatsApp
             </a>
-            <a className="btn btn--ghost" href={profile.resume} download>
-              <DownloadMark size={18} />
-              Baixar currículo
-            </a>
+            <ResumeMenu />
           </motion.div>
         </div>
 

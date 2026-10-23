@@ -1308,3 +1308,47 @@ html[data-fw="angular"] .hero__name {
 .contact__resume svg {
   color: var(--accent);
 }
+
+/* ---------- Resume menu ---------- */
+
+.resume-menu {
+  position: relative;
+}
+
+.resume-menu__list {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  min-width: 17rem;
+  padding: 0.4rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgb(19 37 61 / 0.96);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 24px 50px -20px rgb(0 0 0 / 0.7);
+  transform-origin: top left;
+}
+
+.resume-menu__list a {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 11px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.resume-menu__list a:hover,
+.resume-menu__list a:focus-visible {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.resume-menu__list strong {
+  font-weight: 650;
+}
+
+.resume-menu__list span {
+  font-size: var(--step--1);
+  color: var(--slate);
+}
