@@ -4,6 +4,7 @@ import { profile } from "../data/profile";
 import { useFramework } from "../framework";
 import { CodeWindow } from "./CodeWindow";
 import { Orbits } from "./Orbits";
+import { WhatsAppMark } from "./Marks";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -84,8 +85,9 @@ export function Hero() {
             <a className="btn btn--primary" href={`mailto:${profile.email}`}>
               Enviar e-mail
             </a>
-            <a className="btn btn--ghost" href="#experiencia">
-              Ver experiência
+            <a className="btn btn--ghost" href={profile.whatsapp} target="_blank" rel="noreferrer">
+              <WhatsAppMark size={18} />
+              Chamar no WhatsApp
             </a>
           </motion.div>
         </div>

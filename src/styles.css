@@ -1243,3 +1243,58 @@ html[data-fw="angular"] .hero__name {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---------- WhatsApp ---------- */
+
+.wa-mark {
+  color: #25d366;
+  flex-shrink: 0;
+}
+
+.contact__whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  padding: 0.9rem 1.6rem 0.9rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgb(37 211 102 / 0.35);
+  background: rgb(37 211 102 / 0.07);
+  text-decoration: none;
+  transition:
+    transform 0.3s var(--ease),
+    border-color 0.3s,
+    background-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.contact__whatsapp:hover {
+  transform: translateY(-2px);
+  border-color: rgb(37 211 102 / 0.7);
+  background: rgb(37 211 102 / 0.12);
+  box-shadow: 0 16px 40px -18px #25d366;
+}
+
+.contact__whatsapp-icon {
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+  background: rgb(37 211 102 / 0.14);
+}
+
+.contact__whatsapp-text {
+  display: grid;
+  line-height: 1.3;
+}
+
+.contact__whatsapp-text strong {
+  font-size: var(--step-1);
+  font-weight: 700;
+}
+
+.contact__whatsapp-text span {
+  color: var(--slate);
+  font-variant-numeric: tabular-nums;
+}

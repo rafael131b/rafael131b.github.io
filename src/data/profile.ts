@@ -7,7 +7,7 @@ export const profile = {
   email: "rafa.timoteo.c@gmail.com",
   phone: "(11) 97596-8110",
   phoneHref: "tel:+5511975968110",
-  whatsapp: "https://wa.me/5511975968110",
+  whatsapp: `https://wa.me/5511975968110?text=${encodeURIComponent("Olá, Rafael! Vi seu portfólio e gostaria de conversar.")}`,
   summary:
     "Há mais de 5 anos construo aplicações web e portais corporativos. Meu forte é o front-end com React e Angular, e no back-end já desenvolvi várias APIs com Spring Boot e Node.js.",
 };

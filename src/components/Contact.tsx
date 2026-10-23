@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { profile } from "../data/profile";
+import { WhatsAppMark } from "./Marks";
 
 export function Contact() {
   const [copied, setCopied] = useState(false);
@@ -50,15 +51,17 @@ export function Contact() {
         </span>
       </div>
 
+      <a className="contact__whatsapp" href={profile.whatsapp} target="_blank" rel="noreferrer">
+        <span className="contact__whatsapp-icon">
+          <WhatsAppMark size={26} />
+        </span>
+        <span className="contact__whatsapp-text">
+          <strong>Chamar no WhatsApp</strong>
+          <span>{profile.phone}</span>
+        </span>
+      </a>
+
       <ul className="contact__links">
-        <li>
-          <a href={profile.whatsapp} target="_blank" rel="noreferrer">
-            WhatsApp
-          </a>
-        </li>
-        <li>
-          <a href={profile.phoneHref}>{profile.phone}</a>
-        </li>
         <li>{profile.location}</li>
       </ul>
 
