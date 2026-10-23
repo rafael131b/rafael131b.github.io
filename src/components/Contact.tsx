@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { profile } from "../data/profile";
-import { WhatsAppMark } from "./Marks";
+import { DownloadMark, WhatsAppMark } from "./Marks";
 
 export function Contact() {
   const [copied, setCopied] = useState(false);
@@ -62,6 +62,12 @@ export function Contact() {
       </a>
 
       <ul className="contact__links">
+        <li>
+          <a className="contact__resume" href={profile.resume} download>
+            <DownloadMark size={16} />
+            Baixar currículo (PDF)
+          </a>
+        </li>
         <li>{profile.location}</li>
       </ul>
 

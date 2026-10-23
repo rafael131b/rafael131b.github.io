@@ -1298,3 +1298,13 @@ html[data-fw="angular"] .hero__name {
   color: var(--slate);
   font-variant-numeric: tabular-nums;
 }
+
+.contact__resume {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.contact__resume svg {
+  color: var(--accent);
+}
