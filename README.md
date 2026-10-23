@@ -24,3 +24,7 @@ npm run preview  # serve o build localmente
 
 Todo o texto (resumo, experiências, competências, contato) fica em `src/data/profile.ts`.
 Os trechos de código do topo ficam em `src/code.ts`.
+
+## Publicação
+
+O site é publicado no GitHub Pages em https://rafael131b.github.io a cada push na branch `main` (veja `.github/workflows/deploy.yml`).
