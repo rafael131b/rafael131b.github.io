@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { profile } from "../data/profile";
-import { WhatsAppMark } from "./Marks";
+import { GitHubMark, LinkedInMark, WhatsAppMark } from "./Marks";
 
 export function Contact() {
   const [copied, setCopied] = useState(false);
@@ -62,6 +62,18 @@ export function Contact() {
       </a>
 
       <ul className="contact__links">
+        <li>
+          <a className="contact__social" href={profile.linkedin} target="_blank" rel="noreferrer">
+            <LinkedInMark size={18} />
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a className="contact__social" href={profile.github} target="_blank" rel="noreferrer">
+            <GitHubMark size={18} />
+            GitHub
+          </a>
+        </li>
         <li>{profile.location}</li>
       </ul>
 

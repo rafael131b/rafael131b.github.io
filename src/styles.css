@@ -1299,3 +1299,18 @@ html[data-fw="angular"] .hero__name {
   font-variant-numeric: tabular-nums;
 }
 
+
+.contact__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.contact__social svg {
+  color: var(--slate);
+  transition: color 0.3s;
+}
+
+.contact__social:hover svg {
+  color: var(--accent);
+}
