@@ -15,7 +15,8 @@ export const profile = {
 };
 
 export const about = [
-  "Comecei em 2021 numa agência, fazendo sites e aplicações com React e Next.js para clientes. De lá fui para o mundo dos portais corporativos, onde a interface precisa ser consistente e fácil de manter por qualquer pessoa do time.",
+  "Comecei em 2021 numa consultoria, a Water Park Studios, fazendo sites e aplicações com React e Next.js para clientes. De lá fui para o mundo dos portais corporativos, onde a interface precisa ser consistente e fácil de manter por qualquer pessoa do time.",
+  "Na Magna Sistemas / Almaviva, entre 2022 e 2023, desenvolvi módulos em React integrados a portais corporativos e construí interfaces em Angular, com gerenciamento de estado e componentes reutilizáveis. Trabalhei em squads ágeis, do setup do ambiente ao deploy em produção, com code review.",
   "Na GX2, onde fiquei de 2024 a abril de 2026, trabalhei do front ao back: componentes React dentro do Liferay, APIs com Spring Boot e Node.js e o dia a dia do time no Azure DevOps. No caminho, a IA virou parte do meu processo: uso Claude e Codex para ganhar velocidade tanto no front quanto no back.",
 ];
 
@@ -91,7 +92,7 @@ export const experience = [
     tags: ["React", "Next.js", "TanStack Query", "Zustand", "Liferay", "Spring Boot", "Spring Security", "PostgreSQL", "Node.js"],
   },
   {
-    company: "Almaviva",
+    company: "Magna Sistemas / Almaviva",
     role: "Desenvolvedor Front-End",
     period: "mar 2022 – mar 2023",
     start: "2022",

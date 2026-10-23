@@ -12,7 +12,7 @@ export function Experience() {
 
   return (
     <section className="section experience" id="experiencia" aria-labelledby="exp-titulo">
-      <SectionTitle id="exp-titulo" intro="Do primeiro site para cliente de agência a portais corporativos com front e back.">
+      <SectionTitle id="exp-titulo" intro="Dos primeiros sites para clientes de consultoria a portais corporativos com front e back.">
         Experiência
       </SectionTitle>
 
