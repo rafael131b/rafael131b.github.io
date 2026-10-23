@@ -12,19 +12,6 @@ export const profile = {
     "Há mais de 5 anos construo aplicações web e portais corporativos. Meu forte é o front-end com React e Angular, e no back-end já desenvolvi várias APIs com Spring Boot e Node.js.",
 };
 
-export const resumes = [
-  {
-    label: "Front-end",
-    description: "React, Next.js, TypeScript e Angular",
-    href: `${import.meta.env.BASE_URL}curriculo-rafael-timoteo.pdf`,
-  },
-  {
-    label: "Full stack",
-    description: "React e Angular com Spring Boot e Node.js",
-    href: `${import.meta.env.BASE_URL}curriculo-rafael-timoteo-fullstack.pdf`,
-  },
-];
-
 export const about = [
   "Comecei em 2021 numa agência, fazendo sites e aplicações com React e Next.js para clientes. De lá fui para o mundo dos portais corporativos, onde a interface precisa ser consistente e fácil de manter por qualquer pessoa do time.",
   "Na GX2, onde fiquei de 2024 a abril de 2026, trabalhei do front ao back: componentes React dentro do Liferay, APIs com Spring Boot e Node.js e o dia a dia do time no Azure DevOps. No caminho, a IA virou parte do meu processo: uso Claude e Codex para ganhar velocidade tanto no front quanto no back.",

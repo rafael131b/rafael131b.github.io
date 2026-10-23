@@ -5,7 +5,6 @@ import { useFramework } from "../framework";
 import { CodeWindow } from "./CodeWindow";
 import { Orbits } from "./Orbits";
 import { WhatsAppMark } from "./Marks";
-import { ResumeMenu } from "./ResumeMenu";
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -90,7 +89,6 @@ export function Hero() {
               <WhatsAppMark size={18} />
               Chamar no WhatsApp
             </a>
-            <ResumeMenu />
           </motion.div>
         </div>
 
